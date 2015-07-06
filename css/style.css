@@ -1,0 +1,143 @@
+body {
+	background-color: rgb(224,224,224);
+}
+
+.trailer{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    display: none;
+}
+
+.trailerBackground{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+
+.videoBackground {
+	width: 100%;
+    height: 100%;
+    position:absolute;
+    display:table;
+}
+
+.videoDiv{
+	display:table-cell;
+    vertical-align:middle;
+    width:100%;
+    height:100%:
+}
+
+.video {
+	width: 640px;
+    height: 480px;
+}
+
+.videoContent {
+	width: 640px;
+	height: 480px;
+	position: absolute;
+}
+
+.videoFrame {
+	width: 640px;
+    height: 480px;
+    position: absolute;
+    background-color: black;
+}
+
+.closeTrailer {
+	width:24px;
+	height: 24px;
+	background-image: url("../closeTrailer.png");
+	position: absolute;
+	margin-left: 628px;
+	margin-top: -12px;
+}
+
+.iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.movieCell {
+	margin-top: 20px;
+}
+
+.movie{
+	width:300px;
+	height: 700px;
+	margin-top: 30px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.moviePosterContent {
+	width:300px;
+	height: 440px;
+	-webkit-box-shadow: -1px -1px 22px 10px rgba(0,0,0,0.3);
+	-moz-box-shadow: -1px -1px 22px 10px rgba(0,0,0,0.3);
+	box-shadow: -1px -3px 22px 10px rgba(0,0,0,0.3);
+	background-color: white;
+}
+
+.moviePoster {
+	width:290px;
+	height: 430px;
+	padding-top: 5px;
+}
+
+.movieImage {
+	width:290px;
+	height: 430px;
+}
+
+.movieTitle {
+	width: 300px;
+	font-family: 'Comic Sans MS';
+	font-size: 20px;
+	text-align: left;
+	margin-top: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.movieDescription {
+	width: 300px;
+	margin-top: 10px;
+	font-family: 'Comic Sans MS';
+	font-size: 14px;
+	display: block;
+  	display: -webkit-box;
+  	text-align: left;
+  	-webkit-line-clamp: 10;
+  	-webkit-box-orient: vertical;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+
+#moreMovies {
+	width:200px;
+	height: 60px;
+	background-color: gray;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	cursor: pointer;
+}
+
+#moreMoviesContent {
+	width:200px;
+	height: 60px;
+	font-family: 'Comic Sans MS';
+	font-size: 18px;
+	font-weight: bold;
+	display: table-cell;
+	vertical-align: middle;
+}

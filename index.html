@@ -1,0 +1,47 @@
+<!-- Template HTMl -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+
+	    <title>Ribeiro's Movies</title>
+
+	    <link href="css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+	    <link href="css/full-slider.css" rel="stylesheet" type='text/css'>
+	    <link href="css/style.css" rel="stylesheet" type='text/css'>
+
+	    <script src="js/jquery.min.js"></script>
+	    <script src="js/main.js"></script>
+	</head>
+
+	<body>
+		<div class="trailer">
+			<div class="trailerBackground"></div>
+			<div class="videoBackground">
+				<div class="videoDiv">
+					<center>
+						<div class="video">
+							<div class="videoContent"></div>
+							<div class="videoFrame"></div>
+							<div class="closeTrailer"></div>
+							<!-- <div class="videoContent"></div> -->
+						</div>
+					</center>
+				</div>
+			</div>
+    	</div>
+
+		<div class="container">
+			<div class="row" id="contentMovies">
+				{movies_html}
+			</div>
+		</div>
+
+
+		<center><div id="moreMovies" pageMovie="2"><div id="moreMoviesContent">More Movies</div></div></center>
+	</body>
+</html>
